@@ -1,0 +1,1 @@
+# templeos.nvim
