@@ -11,3 +11,19 @@ use "lunarvim/templeos.nvim"
 ```lua
 vim.cmd("colorscheme templeos")
 ```
+
+## The font is important
+
+The font can be found in the root of this repo
+
+- download it
+
+- move it to `~/.local/share/fonts`
+
+- run the following:
+
+  ```
+  fc-cache -f -v
+  ```
+
+- set your terminal font to `TempleOS`
