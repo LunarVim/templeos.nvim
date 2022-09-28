@@ -1,7 +1,7 @@
 local colors = {
   fg = "#000000",
   bg = "#FFFFFF",
-  alt_fg = "#AAAAAA",
+  alt_fg = "#00AAAA",
   alt_bg = "#AAAAAA",
   line = "#AAAAAA",
   dark_gray = "#555555",
