@@ -3,6 +3,7 @@ local colors = {
   bg = "#FFFFFF",
   alt_fg = "#00AAAA",
   alt_bg = "#AAAAAA",
+  cursorline = "#dddddd",
   line = "#AAAAAA",
   dark_gray = "#555555",
   gray = "#AAAAAA",
