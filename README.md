@@ -8,30 +8,63 @@
 ![4](https://raw.githubusercontent.com/ysfgrgO7/lvim-templeos_scorts/main/scrot4.png) 
 ![5](https://raw.githubusercontent.com/ysfgrgO7/lvim-templeos_scorts/main/scrot5.png)
 
-## Install
+## Installation
+
+> Using [Packer](https://github.com/wbthomason/packer.nvim)
 
 ```lua
 use "lunarvim/templeos.nvim"
 ```
 
+> Using [LunarVim](https://github.com/LunarVim/LunarVim) `config.lua`
+
+```lua
+lvim.plugins = {
+  "lunarvim/templeos.nvim"
+}
+```
+
 ## Activate
+
+> Using your `init.lua`
 
 ```lua
 vim.cmd("colorscheme templeos")
 ```
 
-## The font is important
+> Using [LunarVim](https://github.com/LunarVim/LunarVim) `config.lua`
 
-The font can be found in the root of this repo
+```lua
+lvim.colorscheme = "templeos"
+```
 
-- download it
+## Font installation
 
-- move it to `~/.local/share/fonts`
+> **Note**
+> To make this colorscheme fully immersive you must use the recommended font!
 
-- run the following:
+- [Download](https://github.com/LunarVim/templeos.nvim/raw/master/templeos_font.ttf) the font or get it from the [root](./templeos_font.ttf) of this repository
 
+> on Linux
+
+- Move or copy the file to your fonts directory
+
+  ```bash
+  mv templeos_font.ttf ~/.local/share/fonts
   ```
+
+- Run this to rebuild your font cache. [Learn more](https://www.geeksforgeeks.org/fc-cache-command-in-linux-with-examples/)
+
+  ```bash
   fc-cache -f -v
   ```
 
-- set your terminal font to `TempleOS`
+- Set your terminal font to `TempleOS`
+
+> on Windows
+
+- Double click on the `templeos_font.tff` file
+
+- Click Install
+
+- Set your terminal font to `TempleOS`
